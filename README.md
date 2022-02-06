@@ -3,7 +3,7 @@ My-Mind in Docker for easier deployment
 
 ## Usage
 
-There are two ways you can run this container, either with Docker CLI or Docker-Compose. Setting up this container is super simple you just need to be sure to allow container port 80 through to the host, for example `-p 8085:80` with the mappings respectively `<host_port>:<container_port>`. Use any of the preconfigured options below to get the container up and running quickly.
+There are two ways you can run this container, either with Docker CLI or Docker-Compose. Setting up this container is super simple you just need to be sure to allow container port 80 through to the host, for example `-p 8085:80` with the mappings respectively `<host_port>:<container_port>`. Use any of the preconfigured options below to get the container up and running quickly. After starting the container you should be able to access it from `http://<YOUR_SERVERS_IP>:8085`.
 
 ### Docker CLI
 
