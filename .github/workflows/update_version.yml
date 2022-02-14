@@ -15,7 +15,7 @@ jobs:
       id: version
       env:
         token: ${{ secrets.GITHUB_TOKEN }}
-        repository: 'bertvandepoel/tabby'
+        repository: 'my-mind/my-mind.github.io'
         type: 'latest'
     
     - name: Format version
